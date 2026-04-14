@@ -1,0 +1,152 @@
+{
+  "maps": [
+    {
+      "id": "countryside",
+      "name": "Hügelland",
+      "description": "Hügeliges Profil mit Fokus auf Rhythmus, kontrollierte Landungen und stabiles Tempo."
+    },
+    {
+      "id": "forest",
+      "name": "Wald",
+      "description": "Unruhiger Untergrund, bei dem Grip und Fehlerverzeihung wichtiger werden."
+    },
+    {
+      "id": "desert",
+      "name": "Wüste",
+      "description": "Locker wirkende Übergänge und Kuppen, bei denen Vortrieb und Stabilität zählen."
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "mk2",
+      "name": "Hill Climber Mk2"
+    },
+    {
+      "id": "rally",
+      "name": "Rally Car"
+    },
+    {
+      "id": "buggy",
+      "name": "Dune Buggy"
+    }
+  ],
+  "setups": [
+    {
+      "mapId": "countryside",
+      "vehicleId": "mk2",
+      "ease": "Gut für kontrollierte Runs",
+      "score": "10k-Chance: gut",
+      "summary": "Auf Hügelland hilft dem Mk2 vor allem ein stabiles Setup, damit er bei Kuppen ruhig bleibt.",
+      "parts": [
+        { "name": "Gewichte", "reason": "Mehr Ruhe im Vorderwagen und weniger unkontrollierte Wheelies." },
+        { "name": "Rad-Boost", "reason": "Hilft, Schwung auf Übergängen und Hügeln zu halten." },
+        { "name": "Air Control", "reason": "Macht Landungen sauberer und reduziert Fehler." }
+      ],
+      "tip": "Lieber sauber und konstant fahren als jede Kuppe mit Vollgas anfahren."
+    },
+    {
+      "mapId": "countryside",
+      "vehicleId": "rally",
+      "ease": "Sehr stark für lange Distanz",
+      "score": "10k-Chance: sehr gut",
+      "summary": "Das Rally Car ist hier als Allrounder gedacht, weil es Tempo und Stabilität gut verbindet.",
+      "parts": [
+        { "name": "Overcharged Turbo", "reason": "Bringt starken Durchzug auf langen Wellen." },
+        { "name": "Air Control", "reason": "Hilft bei sauberen Landungen nach Kuppen." },
+        { "name": "Winter Tires", "reason": "Geben zusätzliche Ruhe und Grip." }
+      ],
+      "tip": "Vor längeren Kuppen kurz lupfen, damit du flacher landest."
+    },
+    {
+      "mapId": "countryside",
+      "vehicleId": "buggy",
+      "ease": "Einfach für Anfänger",
+      "score": "10k-Chance: gut bis sehr gut",
+      "summary": "Der Buggy funktioniert hier gut, wenn du den Flow der Hügel sauber mitnimmst.",
+      "parts": [
+        { "name": "Winter Tires", "reason": "Sehr nützlich für kontrollierte Anstiege und Landungen." },
+        { "name": "Start Boost", "reason": "Hilft dir, früh stabil in den Run zu kommen." },
+        { "name": "Air Control", "reason": "Sichert kleinere Sprünge ab." }
+      ],
+      "tip": "Flüssige Linien bringen dir hier meist mehr als aggressives Pumpen."
+    },
+    {
+      "mapId": "forest",
+      "vehicleId": "mk2",
+      "ease": "Ordentlich, aber etwas anspruchsvoller",
+      "score": "10k-Chance: mittel bis gut",
+      "summary": "Im Wald profitiert der Mk2 besonders von Kontrolle und Grip auf unruhigem Untergrund.",
+      "parts": [
+        { "name": "Gewichte", "reason": "Hilft gegen unruhige Fahrzeugbewegungen." },
+        { "name": "Air Control", "reason": "Erlaubt Korrekturen vor der Landung." },
+        { "name": "Winter Tires", "reason": "Verbessert den mechanischen Grip." }
+      ],
+      "tip": "Kleine Fehler summieren sich im Wald schnell, also lieber sicher fahren."
+    },
+    {
+      "mapId": "forest",
+      "vehicleId": "rally",
+      "ease": "Sehr verlässlich",
+      "score": "10k-Chance: sehr gut",
+      "summary": "Das Rally Car passt gut zu unruhigem Untergrund und bleibt in dieser Demo sehr stabil.",
+      "parts": [
+        { "name": "Air Control", "reason": "Hilft auf kurzen Sprüngen und schrägen Landungen." },
+        { "name": "Winter Tires", "reason": "Stärken das ruhige Fahrverhalten." },
+        { "name": "Coin Boost", "reason": "Optional für längere Distanzläufe mit gutem Flow." }
+      ],
+      "tip": "Wenn Coin Boost zu riskant ist, tausche ihn später gegen einen defensiveren Part."
+    },
+    {
+      "mapId": "forest",
+      "vehicleId": "buggy",
+      "ease": "Sehr gut für konstante Runs",
+      "score": "10k-Chance: sehr gut",
+      "summary": "Der Dune Buggy ist im Wald besonders angenehm, weil er Grip und Fehlerverzeihung kombiniert.",
+      "parts": [
+        { "name": "Winter Tires", "reason": "Stärken die Traktion auf der ganzen Map." },
+        { "name": "Air Control", "reason": "Stabilisiert kleine Rotationen in der Luft." },
+        { "name": "Start Boost", "reason": "Bringt dich früh in stabile Reisegeschwindigkeit." }
+      ],
+      "tip": "Eine der entspanntesten Demo-Kombinationen für längere Versuche."
+    },
+    {
+      "mapId": "desert",
+      "vehicleId": "mk2",
+      "ease": "Spielbar, aber nicht ideal",
+      "score": "10k-Chance: mittel",
+      "summary": "In der Wüste braucht der Mk2 vor allem Vortrieb und genug Kontrolle für lose Übergänge.",
+      "parts": [
+        { "name": "Rad-Boost", "reason": "Wichtig, um Momentum zu retten." },
+        { "name": "Gewichte", "reason": "Stabilisiert das Fahrzeug bei Lastwechseln." },
+        { "name": "Air Control", "reason": "Hilft dir, nach Kuppen schneller gerade zu stehen." }
+      ],
+      "tip": "Diese Kombination ist eher sicher als maximal schnell."
+    },
+    {
+      "mapId": "desert",
+      "vehicleId": "rally",
+      "ease": "Sehr gut",
+      "score": "10k-Chance: sehr gut",
+      "summary": "Das Rally Car ist hier die stärkste ausgewogene Wahl zwischen Tempo und Traktion.",
+      "parts": [
+        { "name": "Overcharged Turbo", "reason": "Sorgt für starken Durchzug aus langsamen Passagen." },
+        { "name": "Winter Tires", "reason": "Verbessern die Stabilität auf lockeren Flächen." },
+        { "name": "Air Control", "reason": "Erleichtert die Kontrolle nach längeren Dünenkanten." }
+      ],
+      "tip": "Saubere Übergänge schlagen in dieser Map oft puren Topspeed."
+    },
+    {
+      "mapId": "desert",
+      "vehicleId": "buggy",
+      "ease": "Sehr passend für die Map",
+      "score": "10k-Chance: gut bis sehr gut",
+      "summary": "Der Dune Buggy fühlt sich auf Wüstenprofilen logisch an, weil Grip und Ruhe gut zusammenpassen.",
+      "parts": [
+        { "name": "Winter Tires", "reason": "Das Kernteil für konstante Traktion." },
+        { "name": "Start Boost", "reason": "Hilft, kritische erste Abschnitte schnell zu überstehen." },
+        { "name": "Jump Shocks", "reason": "Kann harte Landungen entschärfen." }
+      ],
+      "tip": "Wenn Landungen für dich kein Problem sind, teste später Air Control statt Jump Shocks."
+    }
+  ]
+}
