@@ -51,8 +51,8 @@
       "description": "High-altitude rocky route with jumps, edges and unstable landings."
     },
     {
-      "id": "intense-city",
-      "name": "Intense City",
+      "id": "city",
+      "name": "City",
       "description": "Urban-style adventure map with fast sections and punishing impacts."
     },
     {
@@ -6205,752 +6205,752 @@
       "tip": "Use this as a dummy entry for Stocker on Sky Rock Outpost and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "hill-climber",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Hill Climber on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Hill Climber on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Hill Climber on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Hill Climber on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Hill Climber on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Hill Climber on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "hill-climber-mk2",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Hill Climber MK2 on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Hill Climber MK2 on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Hill Climber MK2 on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Hill Climber MK2 on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Hill Climber MK2 on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Hill Climber MK2 on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "sports-car",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for SportsCar on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for SportsCar on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for SportsCar on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for SportsCar on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for SportsCar on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for SportsCar on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "dune-buggy",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Dune Buggy on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Dune Buggy on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Dune Buggy on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Dune Buggy on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Dune Buggy on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Dune Buggy on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "super-diesel",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Super Diesel on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Super Diesel on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Super Diesel on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Super Diesel on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Super Diesel on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Super Diesel on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "superbike",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Superbike on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Superbike on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Superbike on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Superbike on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Superbike on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Superbike on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "supercar",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Supercar on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Supercar on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Supercar on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Supercar on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Supercar on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Supercar on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "rally-car",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rally Car on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Rally Car on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Rally Car on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Rally Car on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Rally Car on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Rally Car on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "lowrider",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Lowrider on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Lowrider on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Lowrider on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Lowrider on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Lowrider on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Lowrider on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "beast",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Beast on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Beast on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Beast on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Beast on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Beast on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Beast on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "hot-rod",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Hot Rod on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Hot Rod on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Hot Rod on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Hot Rod on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Hot Rod on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Hot Rod on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "racing-truck",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Racing Truck on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Racing Truck on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Racing Truck on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Racing Truck on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Racing Truck on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Racing Truck on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "formula",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Formula on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Formula on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Formula on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Formula on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Formula on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Formula on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "muscle-car",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Muscle Car on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Muscle Car on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Muscle Car on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "monster-truck",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Monster Truck on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Monster Truck on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Monster Truck on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Monster Truck on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Monster Truck on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Monster Truck on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "rotator",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rotator on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Rotator on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Rotator on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Rotator on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Rotator on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Rotator on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "chopper",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Chopper on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Chopper on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Chopper on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Chopper on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Chopper on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Chopper on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "tank",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Tank on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Tank on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Tank on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Tank on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Tank on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Tank on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "cc-ev",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for CC-EV on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for CC-EV on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for CC-EV on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for CC-EV on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for CC-EV on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for CC-EV on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "atv",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for ATV on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for ATV on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for ATV on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for ATV on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for ATV on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for ATV on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "offroader",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Offroader on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Offroader on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Offroader on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Offroader on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "bus",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Bus on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Bus on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Bus on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Bus on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Bus on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Bus on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "moonlander",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Moonlander on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Moonlander on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Moonlander on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Moonlander on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Moonlander on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Moonlander on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "rock-bouncer",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Rock Bouncer on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Rock Bouncer on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Rock Bouncer on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "hoverbike",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Hoverbike on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Hoverbike on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Hoverbike on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Hoverbike on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Hoverbike on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Hoverbike on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "raider",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Raider on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Raider on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Raider on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Raider on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Raider on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Raider on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "bolt",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Bolt on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Bolt on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Bolt on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Bolt on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Bolt on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Bolt on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "scooter",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Scooter on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Scooter on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Scooter on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Scooter on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Scooter on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Scooter on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "motocross",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Motocross on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Motocross on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Motocross on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Motocross on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Motocross on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Motocross on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "tractor",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Tractor on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Tractor on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Tractor on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Tractor on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Tractor on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Tractor on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "snowmobile",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Snowmobile on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Snowmobile on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Snowmobile on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Snowmobile on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Snowmobile on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Snowmobile on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "monowheel",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Monowheel on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Monowheel on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Monowheel on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Monowheel on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Monowheel on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Monowheel on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "glider",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Glider on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Glider on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Glider on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Glider on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Glider on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Glider on City and customize it later."
     },
     {
-      "mapId": "intense-city",
+      "mapId": "city",
       "vehicleId": "stocker",
       "ease": "Placeholder build",
       "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Intense City. Replace these values with your preferred real setup later.",
+      "summary": "Starter placeholder setup for Stocker on City. Replace these values with your preferred real setup later.",
       "parts": [
         {
           "name": "Air Control",
-          "reason": "Safe default part for Stocker on Intense City; useful as a placeholder until you tune the setup."
+          "reason": "Safe default part for Stocker on City; useful as a placeholder until you tune the setup."
         },
         {
           "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Intense City."
+          "reason": "Good generic momentum helper for early sections on City."
         },
         {
           "name": "Winter Tires",
           "reason": "Simple all-round placeholder for traction and stability while you refine the build."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Intense City and customize it later."
+      "tip": "Use this as a dummy entry for Stocker on City and customize it later."
     },
     {
       "mapId": "forest-trials",
