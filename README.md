@@ -64,4 +64,54 @@ http://localhost:8000/docs/
 
 ## GitHub Pages kurz erklärt
 
+##Notes
+stocker -> all Kangoroo
+stocker -> mountain -> wings, schneeketten, wheele boost
+muscle car -> wald -> magnet, wings, boost
+muscle car city -> wings, magnet, triebwerk
+muscle car -> mountain -> wings, schneeketten, wheele boost
+muscle car -> unter wasser -> wings, gas boost, jumps
+muscle car -> winter -> wings, gas boost, jumps
+muscle car -> bergwerk kangaroo
+buscle car -> wüste/sand -> wings, schneeketten gas boost
+buscle car -> Schlamm -> wings, schneeketten gas boost
+buscle car -> harter winter -> kangoroo
+rest ist auch kangoroo
+off-roader -> erste map -< nitro, wheelie boost, wings
+off-roader  -> wald magnet, wings, nitro
+off-roader ->stadt -> magnet, wings, nitro
+off-roader -> mountain -> magnet, wheelie boost, wings
+off-roader -> unter wasser -> magnet, wings, nitro
+off-roader ->  winter -> magnet, wings, nitro
+off-roader -> Berg -> magnet, wings, nitro
+off-roader -> dessert einfache map?-> wheelie boost, wings, nitro
+off-roader -> sandstrand -> wheelie boost, wings, nitro
+off-roader -> schlamm -> wheelie boost, wings, nitro
+off-roader -> harter winter-> wheelie boost, wings, nitro
+off-roader -> robotter -> wheelie boost, wings, nitro
+off-roader -> karusel-> magnet, wings, nitro
+off-roader -> savanna-> magnet, wings, nitro
+off-roader -> wunderland -> wheelie boost, wings, nitro
+off-roader -> canyon -> wheelie boost, wings, nitro
+off-roader -> stadt bei nacht -> wheelie boost, wings, nitro
+off-roader -> bieber -> magnet, wings, nitro
+off-roader -> moon -> wheelie boost, wings, nitro
+rock bouncer -> erste map -> wings, coin boost, wheelie boost
+rock bouncer -> wald -> magnet, wings, (wheelie boost, oder wenn fuel leer ist boost)
+rock bouncer -> stadt -> wings, thrusters, magnet
+rock bouncer -> mountain -> jumps, wings, fuel leer boost
+rock bouncer -> wasser -> wings, fuel leer boost,  magnet
+rock bouncer -> winter -> wings, fuel leer boost,  magnet
+rock bouncer -> bergwert -> wings, jumps, fuel leer boost
+rock bouncer -> dessert -> wings, jumps, fuel leer boost
+rock bouncer -> sand  -> wings, fuel leer boost,  magnet
+rock bouncer -> schlamm  -> wings, fuel leer boost,  magnet
+rock bouncer -> harter winter-> wings, jumps, wheelie boost
+rock bouncer ->robot -> kangoroo
+rock bouncer -> mystic-> wings, wheelie boost, jumps
+rock bouncer -> karusell-> nitro, jumps, wings
+rock bouncer -> canyon -> kangoroo
+rock bouncer ->finstere stadt -> wings, jumps, wheelie boost
+rock bouncer -> moon -> kangoroo
+
 GitHub Pages ist ein **Static Site Hosting Service** für HTML-, CSS- und JavaScript-Dateien direkt aus einem GitHub-Repository. Für dein Projekt ist das ideal, weil du keine Datenbank und keinen Server brauchst, solange deine Inhalte in `data.json` liegen. [web:105][web:84]
