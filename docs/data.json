@@ -79,6 +79,41 @@
       "id": "desert-valley",
       "name": "Desert Valley",
       "description": "A longer desert-style route where momentum and stable setups shine."
+    },
+    {
+      "id": "cave",
+      "name": "Cave",
+      "description": "Adventure map Cave."
+    },
+    {
+      "id": "mystic-caverns",
+      "name": "Mystic Caverns",
+      "description": "Adventure map Mystic Caverns."
+    },
+    {
+      "id": "mine",
+      "name": "Mines",
+      "description": "Adventure map Mines."
+    },
+    {
+      "id": "savanna",
+      "name": "Savanna",
+      "description": "Adventure map Savanna."
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "description": "Adventure map Moon."
+    },
+    {
+      "id": "canyon-arena",
+      "name": "Canyon Arena",
+      "description": "Adventure map Canyon Arena."
+    },
+    {
+      "id": "cuptown",
+      "name": "Cuptown",
+      "description": "Adventure map Cuptown."
     }
   ],
   "vehicles": [
@@ -92,7 +127,7 @@
     },
     {
       "id": "sports-car",
-      "name": "SportsCar"
+      "name": "Sports Car"
     },
     {
       "id": "dune-buggy",
@@ -509,24 +544,24 @@
     {
       "mapId": "forest",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Forest. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Forest with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Forest; useful as a placeholder until you tune the setup."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Muscle Car on Forest."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Forest."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Overcharged Turbo",
+          "reason": "Overcharged Turbo is selected as an ideal tuning part for Muscle Car on Forest."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Forest and customize it later."
+      "tip": "Use Magnet, Wings, Overcharged Turbo on Forest with Muscle Car."
     },
     {
       "mapId": "forest",
@@ -663,24 +698,24 @@
     {
       "mapId": "forest",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Forest. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Forest with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Forest; useful as a placeholder until you tune the setup."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on Forest."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Forest."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Forest."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Forest and customize it later."
+      "tip": "Use Magnet, Wings, Nitro on Forest with Offroader."
     },
     {
       "mapId": "forest",
@@ -729,24 +764,24 @@
     {
       "mapId": "forest",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Forest. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Forest with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Forest; useful as a placeholder until you tune the setup."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on Forest."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Forest."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Forest."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Forest and customize it later."
+      "tip": "Use Magnet, Wings, Wheelie Boost on Forest with Rock Bouncer."
     },
     {
       "mapId": "forest",
@@ -949,24 +984,24 @@
     {
       "mapId": "forest",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Forest. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Forest with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Forest; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Forest."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Forest."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Forest."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Forest and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Forest with Stocker."
     },
     {
       "mapId": "countryside",
@@ -1257,24 +1292,24 @@
     {
       "mapId": "countryside",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Countryside. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Countryside with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Countryside; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Countryside."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Countryside."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Countryside."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Countryside."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Countryside and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Countryside with Muscle Car."
     },
     {
       "mapId": "countryside",
@@ -1411,24 +1446,24 @@
     {
       "mapId": "countryside",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Countryside. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Countryside with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Countryside; useful as a placeholder until you tune the setup."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Countryside."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Countryside."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Countryside."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Countryside."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Countryside and customize it later."
+      "tip": "Use Nitro, Wheelie Boost, Wings on Countryside with Offroader."
     },
     {
       "mapId": "countryside",
@@ -1477,24 +1512,24 @@
     {
       "mapId": "countryside",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Countryside. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Countryside with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Countryside; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Countryside."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Countryside."
+          "name": "Coin Boost",
+          "reason": "Coin Boost is selected as an ideal tuning part for Rock Bouncer on Countryside."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Countryside."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Countryside and customize it later."
+      "tip": "Use Wings, Coin Boost, Wheelie Boost on Countryside with Rock Bouncer."
     },
     {
       "mapId": "countryside",
@@ -1697,24 +1732,24 @@
     {
       "mapId": "countryside",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Countryside. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Countryside with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Countryside; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Countryside."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Countryside."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Countryside."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Countryside."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Countryside and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Countryside with Stocker."
     },
     {
       "mapId": "desert",
@@ -2005,24 +2040,24 @@
     {
       "mapId": "desert",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Desert. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Desert with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Desert; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Desert."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Desert."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Desert."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Desert and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Desert with Muscle Car."
     },
     {
       "mapId": "desert",
@@ -2445,24 +2480,24 @@
     {
       "mapId": "desert",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Desert. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Desert with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Desert; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Desert."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Desert."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Desert."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Desert and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Desert with Stocker."
     },
     {
       "mapId": "beach",
@@ -2753,24 +2788,24 @@
     {
       "mapId": "beach",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Beach. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Beach with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Beach; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Beach."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Beach."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Beach."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Beach."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Beach and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Beach with Muscle Car."
     },
     {
       "mapId": "beach",
@@ -2907,24 +2942,24 @@
     {
       "mapId": "beach",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Beach. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Beach with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Beach; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Beach."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Beach."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Beach."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Beach."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Beach and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Beach with Offroader."
     },
     {
       "mapId": "beach",
@@ -2973,24 +3008,24 @@
     {
       "mapId": "beach",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Beach. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Beach with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Beach; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Beach."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Beach."
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on Beach."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on Beach."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Beach and customize it later."
+      "tip": "Use Wings, Fume Boost, Magnet on Beach with Rock Bouncer."
     },
     {
       "mapId": "beach",
@@ -3193,24 +3228,24 @@
     {
       "mapId": "beach",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Beach. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Beach with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Beach; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Beach."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Beach."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Beach."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Beach."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Beach and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Beach with Stocker."
     },
     {
       "mapId": "backwater-bog",
@@ -3501,24 +3536,24 @@
     {
       "mapId": "backwater-bog",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Backwater Bog. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Backwater Bog with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Backwater Bog; useful as a placeholder until you tune the setup."
-        },
-        {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Backwater Bog."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Backwater Bog."
         },
         {
           "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "reason": "Winter Tires is selected as an ideal tuning part for Muscle Car on Backwater Bog."
+        },
+        {
+          "name": "Overcharged Turbo",
+          "reason": "Overcharged Turbo is selected as an ideal tuning part for Muscle Car on Backwater Bog."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Backwater Bog and customize it later."
+      "tip": "Use Wings, Winter Tires, Overcharged Turbo on Backwater Bog with Muscle Car."
     },
     {
       "mapId": "backwater-bog",
@@ -3655,24 +3690,24 @@
     {
       "mapId": "backwater-bog",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Backwater Bog. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Backwater Bog with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Backwater Bog; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Backwater Bog."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Backwater Bog."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Backwater Bog."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Backwater Bog."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Backwater Bog and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Backwater Bog with Offroader."
     },
     {
       "mapId": "backwater-bog",
@@ -3721,24 +3756,24 @@
     {
       "mapId": "backwater-bog",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Backwater Bog. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Backwater Bog with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Backwater Bog; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Backwater Bog."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Backwater Bog."
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on Backwater Bog."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on Backwater Bog."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Backwater Bog and customize it later."
+      "tip": "Use Wings, Fume Boost, Magnet on Backwater Bog with Rock Bouncer."
     },
     {
       "mapId": "backwater-bog",
@@ -3941,24 +3976,24 @@
     {
       "mapId": "backwater-bog",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Backwater Bog. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Backwater Bog with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Backwater Bog; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Backwater Bog."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Backwater Bog."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Backwater Bog."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Backwater Bog."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Backwater Bog and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Backwater Bog with Stocker."
     },
     {
       "mapId": "glacier",
@@ -4249,24 +4284,24 @@
     {
       "mapId": "glacier",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Glacier; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Glacier."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Glacier and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Glacier with Muscle Car."
     },
     {
       "mapId": "glacier",
@@ -4689,24 +4724,24 @@
     {
       "mapId": "glacier",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Glacier; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Glacier."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Glacier and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Glacier with Stocker."
     },
     {
       "mapId": "gloomvale",
@@ -4997,24 +5032,24 @@
     {
       "mapId": "gloomvale",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Gloomvale. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Gloomvale with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Gloomvale; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Gloomvale."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Gloomvale."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Gloomvale."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Gloomvale."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Gloomvale and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Gloomvale with Muscle Car."
     },
     {
       "mapId": "gloomvale",
@@ -5151,24 +5186,24 @@
     {
       "mapId": "gloomvale",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Gloomvale. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Gloomvale with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Gloomvale; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Gloomvale."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Gloomvale."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Gloomvale."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Gloomvale."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Gloomvale and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Gloomvale with Offroader."
     },
     {
       "mapId": "gloomvale",
@@ -5437,24 +5472,24 @@
     {
       "mapId": "gloomvale",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Gloomvale. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Gloomvale with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Gloomvale; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Gloomvale."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Gloomvale."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Gloomvale."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Gloomvale."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Gloomvale and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Gloomvale with Stocker."
     },
     {
       "mapId": "sky-rock-outpost",
@@ -5745,24 +5780,24 @@
     {
       "mapId": "sky-rock-outpost",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Sky Rock Outpost. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Sky Rock Outpost with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Sky Rock Outpost; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Sky Rock Outpost."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Sky Rock Outpost."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Sky Rock Outpost."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Sky Rock Outpost."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Sky Rock Outpost and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Sky Rock Outpost with Muscle Car."
     },
     {
       "mapId": "sky-rock-outpost",
@@ -6185,24 +6220,24 @@
     {
       "mapId": "sky-rock-outpost",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Sky Rock Outpost. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Sky Rock Outpost with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Sky Rock Outpost; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Sky Rock Outpost."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Sky Rock Outpost."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Sky Rock Outpost."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Sky Rock Outpost."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Sky Rock Outpost and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Sky Rock Outpost with Stocker."
     },
     {
       "mapId": "city",
@@ -6493,24 +6528,24 @@
     {
       "mapId": "city",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on City. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for City with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on City; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on City."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on City."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Muscle Car on City."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Thrusters",
+          "reason": "Thrusters is selected as an ideal tuning part for Muscle Car on City."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on City and customize it later."
+      "tip": "Use Wings, Magnet, Thrusters on City with Muscle Car."
     },
     {
       "mapId": "city",
@@ -6647,24 +6682,24 @@
     {
       "mapId": "city",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on City. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for City with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on City; useful as a placeholder until you tune the setup."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on City."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on City."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on City."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on City."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on City and customize it later."
+      "tip": "Use Magnet, Wings, Nitro on City with Offroader."
     },
     {
       "mapId": "city",
@@ -6713,24 +6748,24 @@
     {
       "mapId": "city",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on City. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for City with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on City; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on City."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on City."
+          "name": "Thrusters",
+          "reason": "Thrusters is selected as an ideal tuning part for Rock Bouncer on City."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on City."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on City and customize it later."
+      "tip": "Use Wings, Thrusters, Magnet on City with Rock Bouncer."
     },
     {
       "mapId": "city",
@@ -6933,24 +6968,24 @@
     {
       "mapId": "city",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on City. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for City with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on City; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on City."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on City."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on City."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on City."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on City and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on City with Stocker."
     },
     {
       "mapId": "forest-trials",
@@ -7241,24 +7276,24 @@
     {
       "mapId": "forest-trials",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Forest Trials. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Forest Trials with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Forest Trials; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Forest Trials."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest Trials."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Forest Trials."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Forest Trials."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Forest Trials and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Forest Trials with Muscle Car."
     },
     {
       "mapId": "forest-trials",
@@ -7681,24 +7716,24 @@
     {
       "mapId": "forest-trials",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Forest Trials. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Forest Trials with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Forest Trials; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Forest Trials."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Forest Trials."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Forest Trials."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Forest Trials."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Forest Trials and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Forest Trials with Stocker."
     },
     {
       "mapId": "raging-winter",
@@ -7989,24 +8024,24 @@
     {
       "mapId": "raging-winter",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Raging Winter. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Raging Winter with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Raging Winter; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Raging Winter."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Raging Winter."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Raging Winter."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Raging Winter."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Raging Winter and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Raging Winter with Muscle Car."
     },
     {
       "mapId": "raging-winter",
@@ -8143,24 +8178,24 @@
     {
       "mapId": "raging-winter",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Raging Winter. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Raging Winter with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Raging Winter; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Raging Winter."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Raging Winter."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Raging Winter."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Raging Winter."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Raging Winter and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Raging Winter with Offroader."
     },
     {
       "mapId": "raging-winter",
@@ -8209,24 +8244,24 @@
     {
       "mapId": "raging-winter",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Raging Winter. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Raging Winter with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Raging Winter; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Raging Winter."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Raging Winter."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Raging Winter."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Raging Winter."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Raging Winter and customize it later."
+      "tip": "Use Wings, Jump Shocks, Wheelie Boost on Raging Winter with Rock Bouncer."
     },
     {
       "mapId": "raging-winter",
@@ -8429,24 +8464,24 @@
     {
       "mapId": "raging-winter",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Raging Winter. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Raging Winter with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Raging Winter; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Raging Winter."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Raging Winter."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Raging Winter."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Raging Winter."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Raging Winter and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Raging Winter with Stocker."
     },
     {
       "mapId": "patchwork-plant",
@@ -8737,24 +8772,24 @@
     {
       "mapId": "patchwork-plant",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Patchwork Plant. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Patchwork Plant with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Patchwork Plant; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Patchwork Plant."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Patchwork Plant."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Patchwork Plant."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Patchwork Plant."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Patchwork Plant and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Patchwork Plant with Muscle Car."
     },
     {
       "mapId": "patchwork-plant",
@@ -8891,24 +8926,24 @@
     {
       "mapId": "patchwork-plant",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Patchwork Plant. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Patchwork Plant with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Patchwork Plant; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Patchwork Plant."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Patchwork Plant."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Patchwork Plant."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Patchwork Plant."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Patchwork Plant and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Patchwork Plant with Offroader."
     },
     {
       "mapId": "patchwork-plant",
@@ -8957,24 +8992,24 @@
     {
       "mapId": "patchwork-plant",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Patchwork Plant. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Patchwork Plant with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Patchwork Plant; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Patchwork Plant."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Patchwork Plant."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Patchwork Plant."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Rock Bouncer on Patchwork Plant."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Patchwork Plant and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Patchwork Plant with Rock Bouncer."
     },
     {
       "mapId": "patchwork-plant",
@@ -9177,24 +9212,24 @@
     {
       "mapId": "patchwork-plant",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Patchwork Plant. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Patchwork Plant with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Patchwork Plant; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Patchwork Plant."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Patchwork Plant."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Patchwork Plant."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Patchwork Plant."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Patchwork Plant and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Patchwork Plant with Stocker."
     },
     {
       "mapId": "racer-glacier",
@@ -9485,24 +9520,24 @@
     {
       "mapId": "racer-glacier",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Racer Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Racer Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Racer Glacier; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Racer Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Racer Glacier."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Racer Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Racer Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Racer Glacier and customize it later."
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Racer Glacier with Muscle Car."
     },
     {
       "mapId": "racer-glacier",
@@ -9639,24 +9674,24 @@
     {
       "mapId": "racer-glacier",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Racer Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Racer Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Racer Glacier; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Racer Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Racer Glacier."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Racer Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Racer Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Racer Glacier and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Racer Glacier with Offroader."
     },
     {
       "mapId": "racer-glacier",
@@ -9705,24 +9740,24 @@
     {
       "mapId": "racer-glacier",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Racer Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Racer Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Racer Glacier; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Racer Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Racer Glacier."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Racer Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Racer Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Racer Glacier and customize it later."
+      "tip": "Use Wings, Jump Shocks, Wheelie Boost on Racer Glacier with Rock Bouncer."
     },
     {
       "mapId": "racer-glacier",
@@ -9925,24 +9960,24 @@
     {
       "mapId": "racer-glacier",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Racer Glacier. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Racer Glacier with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Racer Glacier; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Racer Glacier."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Racer Glacier."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Racer Glacier."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Racer Glacier."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Racer Glacier and customize it later."
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Racer Glacier with Stocker."
     },
     {
       "mapId": "desert-valley",
@@ -10233,24 +10268,24 @@
     {
       "mapId": "desert-valley",
       "vehicleId": "muscle-car",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Muscle Car on Desert Valley. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Desert Valley with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Muscle Car on Desert Valley; useful as a placeholder until you tune the setup."
-        },
-        {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert Valley."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Desert Valley."
         },
         {
           "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "reason": "Winter Tires is selected as an ideal tuning part for Muscle Car on Desert Valley."
+        },
+        {
+          "name": "Overcharged Turbo",
+          "reason": "Overcharged Turbo is selected as an ideal tuning part for Muscle Car on Desert Valley."
         }
       ],
-      "tip": "Use this as a dummy entry for Muscle Car on Desert Valley and customize it later."
+      "tip": "Use Wings, Winter Tires, Overcharged Turbo on Desert Valley with Muscle Car."
     },
     {
       "mapId": "desert-valley",
@@ -10387,24 +10422,24 @@
     {
       "mapId": "desert-valley",
       "vehicleId": "offroader",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Offroader on Desert Valley. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Desert Valley with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Offroader on Desert Valley; useful as a placeholder until you tune the setup."
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Desert Valley."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert Valley."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Desert Valley."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Desert Valley."
         }
       ],
-      "tip": "Use this as a dummy entry for Offroader on Desert Valley and customize it later."
+      "tip": "Use Wheelie Boost, Wings, Nitro on Desert Valley with Offroader."
     },
     {
       "mapId": "desert-valley",
@@ -10453,24 +10488,24 @@
     {
       "mapId": "desert-valley",
       "vehicleId": "rock-bouncer",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Rock Bouncer on Desert Valley. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Desert Valley with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Rock Bouncer on Desert Valley; useful as a placeholder until you tune the setup."
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Desert Valley."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert Valley."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Desert Valley."
         },
         {
-          "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on Desert Valley."
         }
       ],
-      "tip": "Use this as a dummy entry for Rock Bouncer on Desert Valley and customize it later."
+      "tip": "Use Wings, Jump Shocks, Fume Boost on Desert Valley with Rock Bouncer."
     },
     {
       "mapId": "desert-valley",
@@ -10673,24 +10708,508 @@
     {
       "mapId": "desert-valley",
       "vehicleId": "stocker",
-      "ease": "Placeholder build",
-      "score": "10k-Chance: to review",
-      "summary": "Starter placeholder setup for Stocker on Desert Valley. Replace these values with your preferred real setup later.",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for Desert Valley with tuned parts selected for this adventure map.",
       "parts": [
         {
-          "name": "Air Control",
-          "reason": "Safe default part for Stocker on Desert Valley; useful as a placeholder until you tune the setup."
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Stocker on Desert Valley."
         },
         {
-          "name": "Start Boost",
-          "reason": "Good generic momentum helper for early sections on Desert Valley."
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Stocker on Desert Valley."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on Desert Valley."
+        }
+      ],
+      "tip": "Use Jump Shocks, Landing Boost, Wings on Desert Valley with Stocker."
+    },
+    {
+      "mapId": "mountain",
+      "vehicleId": "muscle-car",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for mountain with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on mountain."
         },
         {
           "name": "Winter Tires",
-          "reason": "Simple all-round placeholder for traction and stability while you refine the build."
+          "reason": "Winter Tires is selected as an ideal tuning part for Muscle Car on mountain."
+        },
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Muscle Car on mountain."
         }
       ],
-      "tip": "Use this as a dummy entry for Stocker on Desert Valley and customize it later."
+      "tip": "Use Wings, Winter Tires, Wheelie Boost on mountain with Muscle Car."
+    },
+    {
+      "mapId": "rustbucket-reef",
+      "vehicleId": "muscle-car",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for rustbucket-reef with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on rustbucket-reef."
+        },
+        {
+          "name": "Overcharged Turbo",
+          "reason": "Overcharged Turbo is selected as an ideal tuning part for Muscle Car on rustbucket-reef."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on rustbucket-reef."
+        }
+      ],
+      "tip": "Use Wings, Overcharged Turbo, Jump Shocks on rustbucket-reef with Muscle Car."
+    },
+    {
+      "mapId": "winter",
+      "vehicleId": "muscle-car",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for winter with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on winter."
+        },
+        {
+          "name": "Overcharged Turbo",
+          "reason": "Overcharged Turbo is selected as an ideal tuning part for Muscle Car on winter."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on winter."
+        }
+      ],
+      "tip": "Use Wings, Overcharged Turbo, Jump Shocks on winter with Muscle Car."
+    },
+    {
+      "mapId": "mine",
+      "vehicleId": "muscle-car",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Muscle Car setup for Mines with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Muscle Car on Mines."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Muscle Car on Mines."
+        },
+        {
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Muscle Car on Mines."
+        }
+      ],
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Mines with Muscle Car."
+    },
+    {
+      "mapId": "mountain",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for mountain with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on mountain."
+        },
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on mountain."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on mountain."
+        }
+      ],
+      "tip": "Use Magnet, Wheelie Boost, Wings on mountain with Offroader."
+    },
+    {
+      "mapId": "rustbucket-reef",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for rustbucket-reef with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on rustbucket-reef."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on rustbucket-reef."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on rustbucket-reef."
+        }
+      ],
+      "tip": "Use Magnet, Wings, Nitro on rustbucket-reef with Offroader."
+    },
+    {
+      "mapId": "winter",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for winter with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on winter."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on winter."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on winter."
+        }
+      ],
+      "tip": "Use Magnet, Wings, Nitro on winter with Offroader."
+    },
+    {
+      "mapId": "mine",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Mines with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on Mines."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Mines."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Mines."
+        }
+      ],
+      "tip": "Use Magnet, Wings, Nitro on Mines with Offroader."
+    },
+    {
+      "mapId": "cuptown",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Cuptown with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Cuptown."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Cuptown."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Cuptown."
+        }
+      ],
+      "tip": "Use Wheelie Boost, Wings, Nitro on Cuptown with Offroader."
+    },
+    {
+      "mapId": "savanna",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Savanna with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on Savanna."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Savanna."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Savanna."
+        }
+      ],
+      "tip": "Use Magnet, Wings, Nitro on Savanna with Offroader."
+    },
+    {
+      "mapId": "canyon-arena",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Canyon Arena with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Canyon Arena."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Canyon Arena."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Canyon Arena."
+        }
+      ],
+      "tip": "Use Wheelie Boost, Wings, Nitro on Canyon Arena with Offroader."
+    },
+    {
+      "mapId": "spring-falls",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for spring-falls with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Offroader on spring-falls."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on spring-falls."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on spring-falls."
+        }
+      ],
+      "tip": "Use Magnet, Wings, Nitro on spring-falls with Offroader."
+    },
+    {
+      "mapId": "moon",
+      "vehicleId": "offroader",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Offroader setup for Moon with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Offroader on Moon."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Offroader on Moon."
+        },
+        {
+          "name": "Nitro",
+          "reason": "Nitro is selected as an ideal tuning part for Offroader on Moon."
+        }
+      ],
+      "tip": "Use Wheelie Boost, Wings, Nitro on Moon with Offroader."
+    },
+    {
+      "mapId": "mountain",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for mountain with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on mountain."
+        },
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on mountain."
+        },
+        {
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on mountain."
+        }
+      ],
+      "tip": "Use Jump Shocks, Wings, Fume Boost on mountain with Rock Bouncer."
+    },
+    {
+      "mapId": "rustbucket-reef",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for rustbucket-reef with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on rustbucket-reef."
+        },
+        {
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on rustbucket-reef."
+        },
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on rustbucket-reef."
+        }
+      ],
+      "tip": "Use Wings, Fume Boost, Magnet on rustbucket-reef with Rock Bouncer."
+    },
+    {
+      "mapId": "winter",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for winter with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on winter."
+        },
+        {
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on winter."
+        },
+        {
+          "name": "Magnet",
+          "reason": "Magnet is selected as an ideal tuning part for Rock Bouncer on winter."
+        }
+      ],
+      "tip": "Use Wings, Fume Boost, Magnet on winter with Rock Bouncer."
+    },
+    {
+      "mapId": "mine",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Mines with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Mines."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Mines."
+        },
+        {
+          "name": "Fume Boost",
+          "reason": "Fume Boost is selected as an ideal tuning part for Rock Bouncer on Mines."
+        }
+      ],
+      "tip": "Use Wings, Jump Shocks, Fume Boost on Mines with Rock Bouncer."
+    },
+    {
+      "mapId": "mystic-caverns",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Mystic Caverns with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Mystic Caverns."
+        },
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Mystic Caverns."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Mystic Caverns."
+        }
+      ],
+      "tip": "Use Wings, Wheelie Boost, Jump Shocks on Mystic Caverns with Rock Bouncer."
+    },
+    {
+      "mapId": "cuptown",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Cuptown with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Cuptown."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Cuptown."
+        },
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Rock Bouncer on Cuptown."
+        }
+      ],
+      "tip": "Use Wings, Jump Shocks, Wheelie Boost on Cuptown with Rock Bouncer."
+    },
+    {
+      "mapId": "canyon-arena",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Canyon Arena with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Canyon Arena."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Canyon Arena."
+        },
+        {
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Rock Bouncer on Canyon Arena."
+        }
+      ],
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Canyon Arena with Rock Bouncer."
+    },
+    {
+      "mapId": "moon",
+      "vehicleId": "rock-bouncer",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Rock Bouncer setup for Moon with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Rock Bouncer on Moon."
+        },
+        {
+          "name": "Jump Shocks",
+          "reason": "Jump Shocks is selected as an ideal tuning part for Rock Bouncer on Moon."
+        },
+        {
+          "name": "Landing Boost",
+          "reason": "Landing Boost is selected as an ideal tuning part for Rock Bouncer on Moon."
+        }
+      ],
+      "tip": "Use Wings, Jump Shocks, Landing Boost on Moon with Rock Bouncer."
+    },
+    {
+      "mapId": "mountain",
+      "vehicleId": "stocker",
+      "ease": "Custom build",
+      "score": "Updated setup",
+      "summary": "Stocker setup for mountain with tuned parts selected for this adventure map.",
+      "parts": [
+        {
+          "name": "Wings",
+          "reason": "Wings is selected as an ideal tuning part for Stocker on mountain."
+        },
+        {
+          "name": "Winter Tires",
+          "reason": "Winter Tires is selected as an ideal tuning part for Stocker on mountain."
+        },
+        {
+          "name": "Wheelie Boost",
+          "reason": "Wheelie Boost is selected as an ideal tuning part for Stocker on mountain."
+        }
+      ],
+      "tip": "Use Wings, Winter Tires, Wheelie Boost on mountain with Stocker."
     }
   ]
 }
