@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,378 +7,520 @@
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=cabinet-grotesk@500,700,800&display=swap" rel="stylesheet">
   <style>
-    /* Art direction: motorsport-inspired setup finder → precise, dark-friendly, tool-like
-       Palette: restrained neutral surfaces with teal accent for actions and status
-       Typography: Cabinet Grotesk + Satoshi for compact product-ui clarity
-       Density: balanced, compact in controls, spacious in hero */
-
+    /* Art direction: motorsport tool → dark-first, precise, teal accent, game-inspired */
     :root,[data-theme="light"]{
       --text-xs:clamp(.75rem,.7rem + .25vw,.875rem);
       --text-sm:clamp(.875rem,.8rem + .35vw,1rem);
       --text-base:clamp(1rem,.95rem + .25vw,1.0625rem);
       --text-lg:clamp(1.125rem,1rem + .75vw,1.375rem);
       --text-xl:clamp(1.5rem,1.2rem + 1.25vw,2rem);
-      --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;--space-20:5rem;
+      --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;
       --color-bg:#f5f4f0;--color-surface:#fbfaf7;--color-surface-2:#f0ede7;--color-surface-offset:#e7e3dc;--color-border:#d9d4cb;--color-divider:#dfd9d0;
       --color-text:#1f1d18;--color-text-muted:#67635c;--color-text-faint:#9a948c;--color-text-inverse:#f9f8f4;
       --color-primary:#0b676d;--color-primary-hover:#0a4f54;--color-primary-soft:#d7ece8;--color-primary-strong:#084347;
-      --color-success:#437a22;--color-warning:#9c5527;--color-blue:#175f9b;
+      --color-success:#437a22;--color-success-soft:#d6edca;
+      --color-warning:#9c5527;--color-warning-soft:#f0ddd2;
+      --color-blue:#175f9b;--color-blue-soft:#ccdff2;
+      --color-amber:#9c7a07;--color-amber-soft:#f5eac7;
       --radius-sm:.5rem;--radius-md:.9rem;--radius-lg:1.2rem;--radius-xl:1.6rem;--radius-full:9999px;
       --shadow-sm:0 1px 2px rgba(12,12,12,.05),0 10px 24px rgba(12,12,12,.04);
       --shadow-md:0 1px 2px rgba(12,12,12,.05),0 18px 44px rgba(12,12,12,.08);
       --shadow-lg:0 1px 2px rgba(12,12,12,.08),0 30px 80px rgba(12,12,12,.12);
       --font-body:'Satoshi',Inter,sans-serif;--font-display:'Cabinet Grotesk',Inter,sans-serif;
-      --max:1200px;
-      --transition:180ms cubic-bezier(.16,1,.3,1);
+      --max:1200px;--transition:180ms cubic-bezier(.16,1,.3,1);
     }
     [data-theme="dark"]{
-      --color-bg:#11110f;--color-surface:#171715;--color-surface-2:#1e1e1b;--color-surface-offset:#2a2a27;--color-border:#32322f;--color-divider:#292926;
-      --color-text:#e4e0d7;--color-text-muted:#aaa49a;--color-text-faint:#716d66;--color-text-inverse:#10100f;
-      --color-primary:#5aa2ab;--color-primary-hover:#428c95;--color-primary-soft:#183135;--color-primary-strong:#8cc8ce;
-      --color-success:#85bd60;--color-warning:#d79a6e;--color-blue:#76acd8;
-      --shadow-sm:0 1px 2px rgba(0,0,0,.24),0 8px 24px rgba(0,0,0,.18);
-      --shadow-md:0 1px 2px rgba(0,0,0,.24),0 18px 44px rgba(0,0,0,.34);
-      --shadow-lg:0 1px 2px rgba(0,0,0,.24),0 28px 80px rgba(0,0,0,.45);
+      --color-bg:#0e0e0c;--color-surface:#14140f;--color-surface-2:#1b1b16;--color-surface-offset:#242420;--color-border:#2e2e29;--color-divider:#252520;
+      --color-text:#e4e0d7;--color-text-muted:#928d84;--color-text-faint:#575350;--color-text-inverse:#0e0e0c;
+      --color-primary:#4fa8b0;--color-primary-hover:#3c9099;--color-primary-soft:#152a2d;--color-primary-strong:#7fccd2;
+      --color-success:#6daa45;--color-success-soft:#1a2e12;
+      --color-warning:#cb7c45;--color-warning-soft:#2e1a0e;
+      --color-blue:#5da3dd;--color-blue-soft:#0e2236;
+      --color-amber:#d4a935;--color-amber-soft:#2a2003;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.22);
+      --shadow-md:0 1px 2px rgba(0,0,0,.3),0 18px 44px rgba(0,0,0,.38);
+      --shadow-lg:0 1px 2px rgba(0,0,0,.3),0 28px 80px rgba(0,0,0,.5);
     }
 
-    *,:before,:after{box-sizing:border-box}
-    html{-webkit-text-size-adjust:none;text-size-adjust:none;scroll-behavior:smooth}
-    body{margin:0;min-height:100dvh;font-family:var(--font-body);font-size:var(--text-base);line-height:1.6;color:var(--color-text);background:var(--color-bg);background-image:radial-gradient(circle at top left,color-mix(in srgb,var(--color-primary) 10%, transparent),transparent 30%),linear-gradient(180deg,var(--color-bg),color-mix(in srgb,var(--color-surface) 92%, var(--color-bg)))}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{-webkit-text-size-adjust:none;text-size-adjust:none;scroll-behavior:smooth;scroll-padding-top:80px}
+    body{min-height:100dvh;font-family:var(--font-body);font-size:var(--text-base);line-height:1.6;color:var(--color-text);background:var(--color-bg);-webkit-font-smoothing:antialiased}
     img,svg{display:block;max-width:100%} button,input,select{font:inherit;color:inherit} a{color:inherit;text-decoration:none} button{border:0;background:none;cursor:pointer}
     :focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:var(--radius-sm)}
-    .container{width:min(var(--max),calc(100% - 1.5rem));margin-inline:auto}
-    .skip-link{position:absolute;left:-9999px;top:0}.skip-link:focus{left:1rem;top:1rem;background:var(--color-primary);color:var(--color-text-inverse);padding:.75rem 1rem;border-radius:var(--radius-md);z-index:100}
+    .container{width:min(var(--max),calc(100% - 2rem));margin-inline:auto}
+    .skip-link{position:absolute;left:-9999px;top:0;z-index:200}
+    .skip-link:focus{left:1rem;top:1rem;background:var(--color-primary);color:var(--color-text-inverse);padding:.6rem 1rem;border-radius:var(--radius-md)}
+    p{text-wrap:pretty;max-width:72ch}
 
-    .site-header{position:sticky;top:0;z-index:40;border-bottom:1px solid color-mix(in srgb,var(--color-text) 8%, transparent);backdrop-filter:blur(16px);background:color-mix(in srgb,var(--color-bg) 82%, transparent)}
-    .nav{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);padding:.95rem 0}
-    .brand{display:flex;align-items:center;gap:.9rem;min-width:0}
-    .brand-mark{width:42px;height:42px;color:var(--color-primary);padding:.35rem;border-radius:14px;background:color-mix(in srgb,var(--color-primary) 10%, var(--color-surface));border:1px solid color-mix(in srgb,var(--color-primary) 16%, transparent)}
-    .brand-copy{min-width:0}.brand-copy strong{display:block;font-family:var(--font-display);font-size:1rem;letter-spacing:.01em}.brand-copy span{font-size:var(--text-xs);color:var(--color-text-muted)}
-    .nav-actions{display:flex;align-items:center;gap:.6rem}
-    .pill-link,.theme-toggle{min-height:44px;padding:.72rem .95rem;border-radius:var(--radius-full);border:1px solid color-mix(in srgb,var(--color-text) 10%, transparent);background:color-mix(in srgb,var(--color-surface) 88%, transparent);font-size:var(--text-sm);font-weight:700}
-    .theme-toggle{min-width:44px;padding:.72rem;display:grid;place-items:center}
+    /* HEADER */
+    .site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid color-mix(in srgb,var(--color-text) 7%, transparent);backdrop-filter:blur(20px) saturate(150%);background:color-mix(in srgb,var(--color-bg) 78%, transparent)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);padding:.9rem 0;min-height:68px}
+    .brand{display:flex;align-items:center;gap:.85rem;min-width:0}
+    .brand-mark{width:40px;height:40px;flex:none;color:var(--color-primary);padding:.3rem;border-radius:12px;background:color-mix(in srgb,var(--color-primary) 12%, var(--color-surface));border:1px solid color-mix(in srgb,var(--color-primary) 20%, transparent)}
+    .brand-copy strong{display:block;font-family:var(--font-display);font-size:.95rem;font-weight:800;letter-spacing:.01em}
+    .brand-copy span{font-size:var(--text-xs);color:var(--color-text-muted)}
+    .nav-actions{display:flex;align-items:center;gap:.5rem}
+    .pill-link{display:inline-flex;align-items:center;gap:.4rem;min-height:40px;padding:.6rem .95rem;border-radius:var(--radius-full);border:1px solid color-mix(in srgb,var(--color-text) 10%, transparent);background:color-mix(in srgb,var(--color-surface) 88%, transparent);font-size:var(--text-sm);font-weight:700;transition:background var(--transition),border-color var(--transition)}
+    .pill-link:hover{background:var(--color-surface-offset);border-color:color-mix(in srgb,var(--color-primary) 30%, transparent)}
+    .theme-toggle{min-width:40px;min-height:40px;padding:.6rem;display:grid;place-items:center;border-radius:var(--radius-full);border:1px solid color-mix(in srgb,var(--color-text) 10%, transparent);background:color-mix(in srgb,var(--color-surface) 88%, transparent);transition:background var(--transition)}
+    .theme-toggle:hover{background:var(--color-surface-offset)}
 
-    .hero{padding:clamp(3rem,8vw,6rem) 0 var(--space-8)}
-    .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:var(--space-8);align-items:start}
-    .eyebrow{display:inline-flex;align-items:center;gap:.6rem;padding:.45rem .8rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
-    .hero h1{font-family:var(--font-display);font-size:clamp(2.4rem,7vw,5rem);line-height:.96;letter-spacing:-.03em;max-width:11ch;margin:var(--space-4) 0 0}
-    .hero p{color:var(--color-text-muted);max-width:62ch;margin:var(--space-4) 0 0}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:var(--space-6)}
-    .button{min-height:46px;padding:.85rem 1.1rem;border-radius:var(--radius-md);font-size:var(--text-sm);font-weight:700;transition:transform var(--transition),background var(--transition),border-color var(--transition),color var(--transition),box-shadow var(--transition)}
+    /* STATUS BANNER */
+    .status-banner{background:linear-gradient(135deg,color-mix(in srgb,var(--color-primary) 6%, var(--color-surface)),color-mix(in srgb,var(--color-primary) 3%, var(--color-bg)));border-bottom:1px solid color-mix(in srgb,var(--color-primary) 15%, transparent);padding:.65rem 0}
+    .status-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem .8rem;font-size:var(--text-xs)}
+    .status-label{font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+    .status-vehicles{display:flex;flex-wrap:wrap;gap:.4rem}
+    .sveh{display:inline-flex;align-items:center;gap:.35rem;padding:.32rem .7rem;border-radius:var(--radius-full);font-size:var(--text-xs);font-weight:700;white-space:nowrap}
+    .sveh.done{background:var(--color-success-soft);color:var(--color-success);border:1px solid color-mix(in srgb,var(--color-success) 18%, transparent)}
+    .sveh.wip{background:var(--color-amber-soft);color:var(--color-amber);border:1px solid color-mix(in srgb,var(--color-amber) 18%, transparent)}
+    .sveh .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+
+    /* HERO */
+    .hero{padding:clamp(2.5rem,7vw,5.5rem) 0 var(--space-8)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:var(--space-8);align-items:start}
+    .eyebrow{display:inline-flex;align-items:center;gap:.55rem;padding:.4rem .8rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--space-4)}
+    .hero h1{font-family:var(--font-display);font-size:clamp(2.2rem,6vw,4.5rem);line-height:.96;letter-spacing:-.03em;font-weight:800;max-width:13ch}
+    .hero-desc{color:var(--color-text-muted);max-width:58ch;margin-top:var(--space-4)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:var(--space-6)}
+    .button{display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:.8rem 1.1rem;border-radius:var(--radius-md);font-size:var(--text-sm);font-weight:700;transition:transform var(--transition),background var(--transition),border-color var(--transition),box-shadow var(--transition)}
     .button:hover{transform:translateY(-1px)}
+    .button:active{transform:none}
     .button.primary{background:var(--color-primary);color:var(--color-text-inverse);box-shadow:var(--shadow-sm)}
-    .button.primary:hover{background:var(--color-primary-hover)}
-    .button.secondary{border:1px solid color-mix(in srgb,var(--color-text) 12%, transparent);background:var(--color-surface);color:var(--color-text)}
+    .button.primary:hover{background:var(--color-primary-hover);box-shadow:var(--shadow-md)}
+    .button.secondary{border:1px solid color-mix(in srgb,var(--color-text) 12%, transparent);background:var(--color-surface)}
 
-    .hero-aside,.panel,.map-card,.feature-card,.result-card,.info-strip{background:color-mix(in srgb,var(--color-surface) 94%, transparent);border:1px solid color-mix(in srgb,var(--color-text) 9%, transparent);box-shadow:var(--shadow-md);border-radius:var(--radius-xl)}
-    .hero-aside{padding:var(--space-6);position:relative;overflow:hidden}
-    .hero-aside:before{content:"";position:absolute;inset:auto -12% -22% auto;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--color-primary) 18%, transparent),transparent 66%);pointer-events:none}
-    .aside-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
-    .aside-head h2{font-size:var(--text-lg);line-height:1.08}
-    .stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:var(--space-5)}
-    .stat{padding:1rem;border-radius:var(--radius-lg);background:var(--color-surface-2);border:1px solid color-mix(in srgb,var(--color-text) 7%, transparent)}
-    .stat strong{display:block;font-size:1.35rem;font-family:var(--font-display)}
-    .stat span{display:block;font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.2rem}
-    .aside-list{display:grid;gap:.75rem;margin-top:var(--space-5)}
-    .aside-item{display:flex;gap:.8rem;align-items:flex-start;padding:.85rem 1rem;border-radius:var(--radius-lg);background:color-mix(in srgb,var(--color-surface-2) 88%, transparent)}
-    .aside-dot{width:10px;height:10px;border-radius:50%;background:var(--color-primary);margin-top:.45rem;flex:none}
+    /* HERO ASIDE CARD */
+    .hero-aside{background:var(--color-surface);border:1px solid color-mix(in srgb,var(--color-text) 8%, transparent);box-shadow:var(--shadow-md);border-radius:var(--radius-xl);padding:var(--space-6);position:relative;overflow:hidden}
+    .hero-aside::before{content:"";position:absolute;right:-60px;bottom:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--color-primary) 14%, transparent),transparent 68%);pointer-events:none}
+    .aside-head h2{font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;letter-spacing:-.01em}
+    .aside-sub{font-size:var(--text-sm);color:var(--color-text-muted);margin:.3rem 0 var(--space-5)}
+    .stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem}
+    .stat{padding:.9rem;border-radius:var(--radius-lg);background:var(--color-surface-2);border:1px solid color-mix(in srgb,var(--color-text) 7%, transparent);text-align:center}
+    .stat strong{display:block;font-size:1.4rem;font-family:var(--font-display);font-weight:800;color:var(--color-primary)}
+    .stat span{display:block;font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.15rem}
+    .aside-features{display:grid;gap:.6rem;margin-top:var(--space-5)}
+    .aside-feat{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;border-radius:var(--radius-lg);background:color-mix(in srgb,var(--color-surface-2) 80%, transparent);font-size:var(--text-sm)}
+    .feat-icon{width:32px;height:32px;border-radius:var(--radius-md);display:grid;place-items:center;flex:none;background:var(--color-primary-soft);color:var(--color-primary)}
 
-    .section{padding:var(--space-8) 0}
-    .section-header{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:var(--space-5)}
-    .section-header h2{font-size:var(--text-xl);font-family:var(--font-display);letter-spacing:-.02em}
-    .section-header p{margin:0;color:var(--color-text-muted);max-width:56ch}
+    /* SECTIONS */
+    .section{padding:var(--space-10) 0}
+    .section-hd{margin-bottom:var(--space-6)}
+    .section-hd h2{font-family:var(--font-display);font-size:var(--text-xl);font-weight:800;letter-spacing:-.02em}
+    .section-hd p{color:var(--color-text-muted);margin-top:.35rem}
+    .divider{height:1px;background:var(--color-divider);margin:0}
 
-    .dashboard-grid{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:var(--space-6);align-items:start}
-    .panel{padding:var(--space-6)}
-    .field{display:grid;gap:.45rem;margin-bottom:1rem}
-    label{font-size:var(--text-sm);font-weight:700}
-    select{width:100%;min-height:50px;padding:.9rem 1rem;border-radius:var(--radius-md);border:1px solid var(--color-border);background:var(--color-surface-2);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--color-text) 4%, transparent)}
-    .button-row{display:flex;flex-wrap:wrap;gap:.75rem;padding-top:.3rem}
+    /* MAP GRID */
+    .map-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:.9rem}
+    .map-card{background:var(--color-surface);border:1px solid color-mix(in srgb,var(--color-text) 8%, transparent);box-shadow:var(--shadow-sm);border-radius:var(--radius-lg);padding:1.1rem;display:flex;flex-direction:column;gap:.6rem;transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition);cursor:pointer}
+    .map-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:color-mix(in srgb,var(--color-primary) 25%, var(--color-border))}
+    .map-card-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+    .map-card-top strong{font-family:var(--font-display);font-size:.95rem;font-weight:700}
+    .map-chip{font-size:calc(var(--text-xs) - .05rem);font-weight:700;padding:.3rem .6rem;border-radius:999px;background:var(--color-primary-soft);color:var(--color-primary)}
+    .map-card p{color:var(--color-text-muted);font-size:var(--text-sm);line-height:1.5;margin:0}
 
-    .map-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-    .map-card{padding:1.15rem;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition)}
-    .map-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:color-mix(in srgb,var(--color-primary) 22%, var(--color-border))}
-    .map-top{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
-    .map-top strong{font-size:var(--text-lg);font-family:var(--font-display)}
-    .map-chip{font-size:var(--text-xs);font-weight:700;padding:.4rem .65rem;border-radius:999px;background:var(--color-primary-soft);color:var(--color-primary)}
-    .map-card p{color:var(--color-text-muted);margin:.7rem 0 0}
+    /* SETUP FINDER */
+    .dashboard-grid{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:var(--space-6);align-items:start}
+    .panel{background:var(--color-surface);border:1px solid color-mix(in srgb,var(--color-text) 8%, transparent);box-shadow:var(--shadow-md);border-radius:var(--radius-xl);padding:var(--space-6)}
+    .panel h3{font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;letter-spacing:-.01em;margin-bottom:var(--space-5)}
+    .field{display:grid;gap:.4rem;margin-bottom:.9rem}
+    label{font-size:var(--text-sm);font-weight:700;color:var(--color-text)}
+    select{width:100%;min-height:48px;padding:.8rem 1rem;border-radius:var(--radius-md);border:1px solid var(--color-border);background:var(--color-surface-2);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .8rem center;padding-right:2.2rem;transition:border-color var(--transition),box-shadow var(--transition)}
+    select:focus{border-color:var(--color-primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--color-primary) 15%, transparent)}
+    .btn-row{display:flex;gap:.65rem;padding-top:.4rem}
 
-    .result-card{padding:var(--space-6);position:relative;overflow:hidden}
-    .result-card:after{content:"";position:absolute;right:-70px;top:-70px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--color-primary) 12%, transparent),transparent 70%);pointer-events:none}
-    .badges{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}
-    .badge{display:inline-flex;align-items:center;gap:.45rem;padding:.45rem .78rem;border-radius:var(--radius-full);font-size:var(--text-xs);font-weight:700;background:var(--color-surface-2);border:1px solid color-mix(in srgb,var(--color-text) 7%, transparent)}
-    .badge.score{color:var(--color-success);background:color-mix(in srgb,var(--color-success) 10%, var(--color-surface-2))}
-    .result-title{font-size:var(--text-xl);font-family:var(--font-display);letter-spacing:-.02em;line-height:1.02}
-    .result-summary{color:var(--color-text-muted);margin-top:.8rem;max-width:64ch}
-    .parts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.35rem 0}
-    .part-card{padding:1rem;border-radius:var(--radius-lg);background:linear-gradient(180deg,color-mix(in srgb,var(--color-surface-2) 90%, transparent),color-mix(in srgb,var(--color-surface) 88%, transparent));border:1px solid color-mix(in srgb,var(--color-text) 8%, transparent)}
-    .part-card strong{display:flex;align-items:center;gap:.65rem;font-size:1rem}
-    .part-index{width:1.7rem;height:1.7rem;border-radius:999px;display:grid;place-items:center;font-size:.78rem;background:var(--color-primary-soft);color:var(--color-primary);flex:none}
-    .part-card small{display:block;color:var(--color-text-muted);margin-top:.55rem;font-size:var(--text-sm);line-height:1.55}
-    .tip-box{padding:1rem 1.05rem;border-radius:var(--radius-lg);background:color-mix(in srgb,var(--color-blue) 7%, var(--color-surface));border:1px solid color-mix(in srgb,var(--color-blue) 12%, transparent)}
-    .tip-box strong{display:block;margin-bottom:.35rem}
+    /* RESULT CARD */
+    .result-card{background:var(--color-surface);border:1px solid color-mix(in srgb,var(--color-text) 8%, transparent);box-shadow:var(--shadow-md);border-radius:var(--radius-xl);padding:var(--space-6);position:relative;overflow:hidden;min-height:220px}
+    .result-card::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--color-primary) 10%, transparent),transparent 70%);pointer-events:none}
+    .badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:var(--space-4)}
+    .badge{display:inline-flex;align-items:center;gap:.4rem;padding:.35rem .7rem;border-radius:var(--radius-full);font-size:var(--text-xs);font-weight:700;background:var(--color-surface-2);border:1px solid color-mix(in srgb,var(--color-text) 7%, transparent)}
+    .badge.score{background:var(--color-success-soft);color:var(--color-success);border-color:color-mix(in srgb,var(--color-success) 18%, transparent)}
+    .badge.wip-badge{background:var(--color-amber-soft);color:var(--color-amber);border-color:color-mix(in srgb,var(--color-amber) 18%, transparent)}
+    .result-title{font-family:var(--font-display);font-size:var(--text-xl);font-weight:800;letter-spacing:-.02em;line-height:1.02}
+    .result-summary{color:var(--color-text-muted);margin-top:.7rem;max-width:64ch;font-size:var(--text-sm)}
 
-    .info-strip{padding:var(--space-6);display:grid;grid-template-columns:1.15fr .85fr;gap:var(--space-5);align-items:center}
-    .info-strip h3{font-family:var(--font-display);font-size:var(--text-lg);margin:0}
-    .info-strip p{margin:.6rem 0 0;color:var(--color-text-muted)}
-    .info-mini{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
-    .info-mini-card{padding:1rem;border-radius:var(--radius-lg);background:var(--color-surface-2)}
-    .info-mini-card strong{display:block}
-    .info-mini-card span{display:block;margin-top:.3rem;color:var(--color-text-muted);font-size:var(--text-sm)}
+    /* WIP NOTICE */
+    .wip-notice{display:flex;align-items:flex-start;gap:.8rem;padding:1rem 1.1rem;border-radius:var(--radius-lg);background:var(--color-amber-soft);border:1px solid color-mix(in srgb,var(--color-amber) 20%, transparent);margin:var(--space-4) 0}
+    .wip-notice svg{flex:none;color:var(--color-amber);margin-top:.15rem}
+    .wip-notice p{color:var(--color-amber);font-size:var(--text-sm);font-weight:500;margin:0}
 
-    footer{padding:var(--space-10) 0 var(--space-12);color:var(--color-text-muted)}
+    /* PARTS GRID */
+    .parts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin:var(--space-5) 0}
+    .part-card{padding:.95rem;border-radius:var(--radius-lg);background:var(--color-surface-2);border:1px solid color-mix(in srgb,var(--color-text) 7%, transparent)}
+    .part-name{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.95rem}
+    .part-index{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;font-size:.72rem;font-weight:800;background:var(--color-primary-soft);color:var(--color-primary);flex:none}
+    .part-reason{color:var(--color-text-muted);font-size:var(--text-sm);line-height:1.5;margin-top:.5rem}
+    .tip-box{display:flex;gap:.75rem;padding:.95rem 1rem;border-radius:var(--radius-lg);background:color-mix(in srgb,var(--color-blue) 6%, var(--color-surface));border:1px solid color-mix(in srgb,var(--color-blue) 12%, transparent);font-size:var(--text-sm)}
+    .tip-box svg{flex:none;color:var(--color-blue);margin-top:.15rem}
+    .tip-box p{margin:0;color:var(--color-text-muted)}
+    .tip-box strong{color:var(--color-text)}
 
-    @media (max-width: 980px){
-      .hero-grid,.dashboard-grid,.info-strip{grid-template-columns:1fr}
-      .map-grid,.parts-grid{grid-template-columns:1fr 1fr}
-      .stat-grid{grid-template-columns:1fr}
+    /* EMPTY / LOADING STATE */
+    .empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:180px;color:var(--color-text-faint);gap:.75rem}
+    .empty-state svg{opacity:.4}
+    .empty-state p{font-size:var(--text-sm);color:var(--color-text-muted);max-width:36ch;margin:0}
+
+    /* FOOTER */
+    footer{padding:var(--space-10) 0;border-top:1px solid var(--color-divider);color:var(--color-text-muted);font-size:var(--text-sm)}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+    .footer-info{display:flex;align-items:center;gap:.5rem}
+
+    /* RESPONSIVE */
+    @media(max-width:980px){
+      .hero-grid,.dashboard-grid{grid-template-columns:1fr}
+      .hero-aside{order:-1}
+      .stat-grid{grid-template-columns:repeat(3,1fr)}
+      .parts-grid{grid-template-columns:1fr 1fr}
     }
-    @media (max-width: 640px){
-      .container{width:min(var(--max),calc(100% - 1rem))}
-      .hero{padding-top:2rem}
-      .nav{align-items:flex-start}
-      .brand-copy strong{font-size:.95rem}
-      .map-grid,.parts-grid,.info-mini{grid-template-columns:1fr}
-      .button-row,.hero-actions{flex-direction:column}
+    @media(max-width:640px){
+      .hero h1{font-size:clamp(2rem,8vw,2.8rem)}
+      .parts-grid,.stat-grid{grid-template-columns:1fr}
+      .btn-row,.hero-actions{flex-direction:column}
       .button,.pill-link{width:100%;justify-content:center}
-      .nav-actions{width:auto}
+      .status-inner{flex-direction:column;align-items:flex-start}
+      .container{width:min(var(--max),calc(100% - 1.25rem))}
     }
-    @media (prefers-reduced-motion: reduce){
-      *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
-    }
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <nav class="container nav" aria-label="Hauptnavigation">
+    <nav class="container nav" aria-label="Main navigation">
       <div class="brand">
-        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adventure Guide Logo">
-          <path d="M9 43.5 23.5 20.5 33.5 34.5 45.5 16.5 55 43.5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="20" cy="47" r="5.5" stroke="currentColor" stroke-width="4"/>
-          <circle cx="46" cy="47" r="5.5" stroke="currentColor" stroke-width="4"/>
+        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="HCR2 Guide Logo">
+          <path d="M9 43.5 23.5 20.5 33.5 34.5 45.5 16.5 55 43.5" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="20" cy="47" r="5.5" stroke="currentColor" stroke-width="3.5"/>
+          <circle cx="46" cy="47" r="5.5" stroke="currentColor" stroke-width="3.5"/>
         </svg>
         <div class="brand-copy">
           <strong>HCR2 Adventure Guide</strong>
-          <span>setup-finder for long ddventure-Runs</span>
+          <span>Setup finder for adventure runs</span>
         </div>
       </div>
       <div class="nav-actions">
-        <a class="pill-link" href="#setup-tool">direct to setup-finder</a>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <a class="pill-link" href="#setup-tool">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Setup Finder
+        </a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         </button>
       </div>
     </nav>
   </header>
 
+  <!-- STATUS BANNER -->
+  <div class="status-banner">
+    <div class="container status-inner">
+      <span class="status-label">Setup Status</span>
+      <div class="status-vehicles" id="statusVehicles">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </div>
+
   <main id="main">
-    <section class="hero container">
+
+    <!-- HERO -->
+    <section class="hero container" aria-label="Introduction">
       <div class="hero-grid">
         <div>
-          <span class="eyebrow">Dark Mode · Setup Finder · JSON powered</span>
-          <h1>Find the right adventure setup for your 10k run faster.</h1>
-          <p>No matter which map or which car, here you will find for every car or every map the suitable tuning parts that are ideal for your 10k run</p>
+          <span class="eyebrow">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Hill Climb Racing 2 · Adventure
+          </span>
+          <h1>Find the perfect setup for your 10k run.</h1>
+          <p class="hero-desc">Pick your map and vehicle — get the ideal tuning parts instantly. Every combination is backed by real data from the official HCR2 wiki.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#setup-tool">choose the setup</a>
-            <a class="button secondary" href="#maps">watch maps</a>
+            <a class="button primary" href="#setup-tool">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              Open Setup Finder
+            </a>
+            <a class="button secondary" href="#maps">View all Maps</a>
           </div>
         </div>
 
-        <aside class="hero-aside" aria-label="Seitenvorschau">
+        <aside class="hero-aside" aria-label="Quick stats">
           <div class="aside-head">
-            <div>
-              <h2>current status, how many cars are active and how many cards are available</h2>
-              <p class="result-summary" style="margin-top:.4rem"></p>
-            </div>
+            <h2>Guide Status</h2>
+            <p class="aside-sub">Live data from your <code>data.json</code></p>
           </div>
           <div class="stat-grid">
-            <div class="stat"><strong>all besides the spezial one</strong><span>Maps aktiv</span></div>
-            <div class="stat"><strong>all</strong><span>Fahrzeuge aktiv</span></div>
-            <div class="stat"><strong>all</strong><span>Kombinationen</span></div>
+            <div class="stat"><strong id="statMaps">—</strong><span>Maps</span></div>
+            <div class="stat"><strong id="statVehicles">—</strong><span>Vehicles</span></div>
+            <div class="stat"><strong id="statSetups">—</strong><span>Setups</span></div>
           </div>
-          <div class="aside-list">
-            <div class="aside-item"><span class="aside-dot"></span><div><strong>Setup-Finder</strong><br><span style="color:var(--color-text-muted)">Map wählen, Auto wählen, Teile sehen.</span></div></div>
-            <div class="aside-item"><span class="aside-dot"></span><div><strong>Zufallskombi</strong><br><span style="color:var(--color-text-muted)">Praktisch zum Testen und Durchprobieren.</span></div></div>
-            <div class="aside-item"><span class="aside-dot"></span><div><strong>Dummy</strong><br><span style="color:var(--color-text-muted)">Dummy Dummy Dummy</span></div></div>
+          <div class="aside-features">
+            <div class="aside-feat">
+              <div class="feat-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              </div>
+              <span>4 vehicles fully configured — rest in progress</span>
+            </div>
+            <div class="aside-feat">
+              <div class="feat-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+              </div>
+              <span>Powered by <code>data.json</code> — fully editable</span>
+            </div>
+            <div class="aside-feat">
+              <div class="feat-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <span>Random combo button for fast testing</span>
+            </div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section container" id="maps">
-      <div class="section-header">
-        <div>
-          <h2>Adventure-Maps</h2>
-          <p>Kurze Orientierung für die aktuell eingebauten Test-Strecken.</p>
-        </div>
+    <hr class="divider">
+
+    <!-- MAPS OVERVIEW -->
+    <section class="section container" id="maps" aria-labelledby="mapsHeading">
+      <div class="section-hd">
+        <h2 id="mapsHeading">Adventure Maps</h2>
+        <p>Every available map loaded from your data. Click a map to prefill the setup finder.</p>
       </div>
       <div class="map-grid" id="mapCards"></div>
     </section>
 
-    <section class="section container" id="setup-tool">
-      <div class="section-header">
-        <div>
-          <h2>Setup-Finder</h2>
-          <p>Choose a map and a vehicle. After that, you will immediately see the best demo parts, an estimate for 10k, and a brief driving tip.</p>
-        </div>
+    <hr class="divider">
+
+    <!-- SETUP FINDER -->
+    <section class="section container" id="setup-tool" aria-labelledby="finderHeading">
+      <div class="section-hd">
+        <h2 id="finderHeading">Setup Finder</h2>
+        <p>Select a map and vehicle to see the recommended tuning parts for your adventure run.</p>
       </div>
 
       <div class="dashboard-grid">
-        <section class="panel" aria-labelledby="setupTitle">
-          <h3 id="setupTitle" style="font-size:var(--text-lg);margin:0 0 1rem;font-family:var(--font-display);">Deine Auswahl</h3>
+        <div class="panel" role="form" aria-labelledby="finderFormTitle">
+          <h3 id="finderFormTitle">Your Selection</h3>
           <div class="field">
-            <label for="mapSelect">Adventure-Map</label>
-            <select id="mapSelect"></select>
+            <label for="mapSelect">Adventure Map</label>
+            <select id="mapSelect" aria-label="Select map"></select>
           </div>
           <div class="field">
-            <label for="vehicleSelect">Fahrzeug</label>
-            <select id="vehicleSelect"></select>
+            <label for="vehicleSelect">Vehicle</label>
+            <select id="vehicleSelect" aria-label="Select vehicle"></select>
           </div>
-          <div class="button-row">
-            <button class="button primary" id="showBtn" type="button">Setup anzeigen</button>
-            <button class="button secondary" id="randomBtn" type="button">Zufallskombi</button>
+          <div class="btn-row">
+            <button class="button primary" id="showBtn" type="button">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              Show Setup
+            </button>
+            <button class="button secondary" id="randomBtn" type="button">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+              Random
+            </button>
           </div>
-        </section>
-
-        <section class="result-card" aria-live="polite">
-          <div class="badges" id="badges"></div>
-          <h3 class="result-title" id="title">Lade Daten…</h3>
-          <p class="result-summary" id="summary"></p>
-          <div class="parts-grid" id="parts"></div>
-          <div class="tip-box" id="tipBox">
-            <strong>Fahrtipp</strong>
-            <div id="tip"></div>
-          </div>
-        </section>
-      </div>
-    </section>
-
-    <section class="section container">
-      <div class="info-strip">
-        <div>
-          <h3>Dummy</h3>
-          <p>Dummy</p>
         </div>
-        <div class="info-mini">
-          <div class="info-mini-card"><strong>Mehr Maps</strong><span>Einfach in <code>data.json</code> ergänzen.</span></div>
-          <div class="info-mini-card"><strong>Mehr Autos</strong><span>Neue Einträge ohne Layout-Umbau.</span></div>
-          <div class="info-mini-card"><strong>Online Hosting</strong><span>Perfekt für GitHub Pages.</span></div>
-          <div class="info-mini-card"><strong>Dark Mode</strong><span>Schon eingebaut und sauber abgestimmt.</span></div>
+
+        <div class="result-card" aria-live="polite" id="resultCard">
+          <div class="empty-state" id="emptyState">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <p>Select a map and vehicle, then click <strong>Show Setup</strong>.</p>
+          </div>
+          <div id="resultContent" style="display:none">
+            <div class="badges" id="badges"></div>
+            <h3 class="result-title" id="resultTitle"></h3>
+            <p class="result-summary" id="resultSummary"></p>
+            <div id="wipNotice"></div>
+            <div class="parts-grid" id="partsGrid"></div>
+            <div class="tip-box" id="tipBox">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+              <div><strong>Tip</strong><p id="tipText"></p></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer>
-    <div class="container">Copyright by Auer Johannes</div>
+    <div class="container footer-inner">
+      <div class="footer-info">
+        <svg width="18" height="18" viewBox="0 0 64 64" fill="none"><path d="M9 43.5 23.5 20.5 33.5 34.5 45.5 16.5 55 43.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="47" r="5.5" stroke="currentColor" stroke-width="3"/><circle cx="46" cy="47" r="5.5" stroke="currentColor" stroke-width="3"/></svg>
+        <span>HCR2 Adventure Guide</span>
+      </div>
+      <span>© Auer Johannes</span>
+    </div>
   </footer>
 
   <script>
-    let appData = null;
-    const mapSelect = document.getElementById('mapSelect');
-    const vehicleSelect = document.getElementById('vehicleSelect');
-    const badges = document.getElementById('badges');
-    const title = document.getElementById('title');
-    const summary = document.getElementById('summary');
-    const parts = document.getElementById('parts');
-    const tip = document.getElementById('tip');
-    const mapCards = document.getElementById('mapCards');
+    const DONE_VEHICLES = ['muscle-car','stocker','offroader','rock-bouncer'];
 
-    function mapTone(name) {
-      if (name.toLowerCase().includes('hügel')) return 'Flow';
-      if (name.toLowerCase().includes('wald')) return 'Grip';
-      if (name.toLowerCase().includes('wüste')) return 'Traktion';
+    let appData = null;
+
+    const mapSelectEl = document.getElementById('mapSelect');
+    const vehicleSelectEl = document.getElementById('vehicleSelect');
+    const mapCardsEl = document.getElementById('mapCards');
+    const emptyState = document.getElementById('emptyState');
+    const resultContent = document.getElementById('resultContent');
+    const statusVehicles = document.getElementById('statusVehicles');
+
+    /* ---- STATUS BANNER ---- */
+    function renderStatus() {
+      statusVehicles.innerHTML = appData.vehicles.map(v => {
+        const done = DONE_VEHICLES.includes(v.id);
+        return `<span class="sveh ${done ? 'done' : 'wip'}"><span class="dot"></span>${v.name}${done ? '' : ' <em style="font-weight:400;opacity:.7">— in progress</em>'}</span>`;
+      }).join('');
+    }
+
+    /* ---- STATS ---- */
+    function renderStats() {
+      const validSetups = appData.setups.filter(s => {
+        const isDone = DONE_VEHICLES.includes(s.vehicleId);
+        return isDone && s.ease !== 'Placeholder build';
+      });
+      document.getElementById('statMaps').textContent = appData.maps.length;
+      document.getElementById('statVehicles').textContent = appData.vehicles.length;
+      document.getElementById('statSetups').textContent = validSetups.length + '+';
+    }
+
+    /* ---- MAP CARDS ---- */
+    function mapTag(name) {
+      const n = name.toLowerCase();
+      if (n.includes('forest') || n.includes('wald')) return 'Grip';
+      if (n.includes('desert') || n.includes('valley') || n.includes('sand')) return 'Momentum';
+      if (n.includes('winter') || n.includes('glacier') || n.includes('raging')) return 'Cold';
+      if (n.includes('beach') || n.includes('reef') || n.includes('bog') || n.includes('water')) return 'Wet';
+      if (n.includes('city') || n.includes('town') || n.includes('intense')) return 'Urban';
+      if (n.includes('mountain') || n.includes('rock') || n.includes('canyon') || n.includes('cave') || n.includes('mine')) return 'Technical';
+      if (n.includes('moon')) return 'Space';
+      if (n.includes('savanna') || n.includes('gloom') || n.includes('mystic')) return 'Exotic';
       return 'Adventure';
     }
 
-    async function loadData() {
-      const response = await fetch('./data.json');
-      appData = await response.json();
-      fillSelects();
-      renderMapCards();
-      renderResult();
-    }
-
-    function fillSelects() {
-      mapSelect.innerHTML = appData.maps.map(map => `<option value="${map.id}">${map.name}</option>`).join('');
-      vehicleSelect.innerHTML = appData.vehicles.map(vehicle => `<option value="${vehicle.id}">${vehicle.name}</option>`).join('');
-    }
-
     function renderMapCards() {
-      mapCards.innerHTML = appData.maps.map(map => `
-        <article class="map-card">
-          <div class="map-top">
+      mapCardsEl.innerHTML = appData.maps.map(map => `
+        <article class="map-card" role="button" tabindex="0" data-mapid="${map.id}" aria-label="Select ${map.name}">
+          <div class="map-card-top">
             <strong>${map.name}</strong>
-            <span class="map-chip">${mapTone(map.name)}</span>
+            <span class="map-chip">${mapTag(map.name)}</span>
           </div>
           <p>${map.description}</p>
         </article>
       `).join('');
+
+      mapCardsEl.querySelectorAll('.map-card').forEach(card => {
+        const go = () => {
+          mapSelectEl.value = card.dataset.mapid;
+          document.getElementById('setup-tool').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          showResult();
+        };
+        card.addEventListener('click', go);
+        card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+      });
     }
 
-    function renderResult() {
-      const mapId = mapSelect.value;
-      const vehicleId = vehicleSelect.value;
+    /* ---- SELECTS ---- */
+    function fillSelects() {
+      mapSelectEl.innerHTML = appData.maps.map(m => `<option value="${m.id}">${m.name}</option>`).join('');
+      vehicleSelectEl.innerHTML = appData.vehicles.map(v => {
+        const done = DONE_VEHICLES.includes(v.id);
+        return `<option value="${v.id}">${v.name}${done ? '' : ' (in progress)'}</option>`;
+      }).join('');
+    }
+
+    /* ---- SHOW RESULT ---- */
+    function showResult() {
+      const mapId = mapSelectEl.value;
+      const vehicleId = vehicleSelectEl.value;
       const map = appData.maps.find(m => m.id === mapId);
       const vehicle = appData.vehicles.find(v => v.id === vehicleId);
       const entry = appData.setups.find(s => s.mapId === mapId && s.vehicleId === vehicleId);
+      const isWip = !DONE_VEHICLES.includes(vehicleId);
+
+      emptyState.style.display = 'none';
+      resultContent.style.display = 'block';
+
+      const wipBadge = isWip ? `<span class="badge wip-badge">⚙ In Progress</span>` : `<span class="badge score">✓ Verified Setup</span>`;
+
+      document.getElementById('badges').innerHTML = `
+        <span class="badge">${map ? map.name : mapId}</span>
+        <span class="badge">${vehicle ? vehicle.name : vehicleId}</span>
+        ${wipBadge}
+      `;
+      document.getElementById('resultTitle').textContent = `${map ? map.name : mapId} × ${vehicle ? vehicle.name : vehicleId}`;
+
+      if (isWip) {
+        document.getElementById('wipNotice').innerHTML = `
+          <div class="wip-notice">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            <p><strong>Setup for this vehicle is still being worked on.</strong> The data shown below is a placeholder and may not reflect optimal tuning.</p>
+          </div>`;
+      } else {
+        document.getElementById('wipNotice').innerHTML = '';
+      }
 
       if (!entry) {
-        title.textContent = 'Keine Daten für diese Auswahl';
-        summary.textContent = 'In data.json gibt es für diese Kombination noch keinen Eintrag.';
-        badges.innerHTML = '';
-        parts.innerHTML = '';
-        tip.textContent = 'Ergänze diese Kombination später einfach in deiner JSON-Datei.';
+        document.getElementById('resultSummary').textContent = 'No setup entry found for this combination in data.json.';
+        document.getElementById('partsGrid').innerHTML = '';
+        document.getElementById('tipText').textContent = 'Add this combination to data.json to see setup details here.';
+        document.getElementById('tipBox').style.display = 'flex';
         return;
       }
 
-      title.textContent = `${map.name} × ${vehicle.name}`;
-      summary.textContent = entry.summary;
-      badges.innerHTML = `
-        <span class="badge">Map: ${map.name}</span>
-        <span class="badge">Auto: ${vehicle.name}</span>
-        <span class="badge score">${entry.score}</span>
-        <span class="badge">${entry.ease}</span>
-      `;
-      parts.innerHTML = entry.parts.map((part, index) => `
+      document.getElementById('resultSummary').textContent = entry.summary || '';
+      document.getElementById('partsGrid').innerHTML = (entry.parts || []).map((part, i) => `
         <article class="part-card">
-          <strong><span class="part-index">${index + 1}</span>${part.name}</strong>
-          <small>${part.reason}</small>
+          <div class="part-name"><span class="part-index">${i + 1}</span>${part.name}</div>
+          <p class="part-reason">${part.reason}</p>
         </article>
       `).join('');
-      tip.textContent = entry.tip;
+      document.getElementById('tipText').textContent = entry.tip || '';
+      document.getElementById('tipBox').style.display = entry.tip ? 'flex' : 'none';
     }
 
-    document.getElementById('showBtn').addEventListener('click', renderResult);
+    document.getElementById('showBtn').addEventListener('click', showResult);
     document.getElementById('randomBtn').addEventListener('click', () => {
-      const map = appData.maps[Math.floor(Math.random() * appData.maps.length)];
-      const vehicle = appData.vehicles[Math.floor(Math.random() * appData.vehicles.length)];
-      mapSelect.value = map.id;
-      vehicleSelect.value = vehicle.id;
-      renderResult();
+      const m = appData.maps[Math.floor(Math.random() * appData.maps.length)];
+      const v = appData.vehicles[Math.floor(Math.random() * appData.vehicles.length)];
+      mapSelectEl.value = m.id;
+      vehicleSelectEl.value = v.id;
+      showResult();
     });
 
+    /* ---- THEME TOGGLE ---- */
     (function () {
       const toggle = document.querySelector('[data-theme-toggle]');
       const root = document.documentElement;
-      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      let theme = 'dark';
       root.setAttribute('data-theme', theme);
+      function setIcon() {
+        toggle.innerHTML = theme === 'dark'
+          ? '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        toggle.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
+      }
+      setIcon();
       toggle.addEventListener('click', () => {
         theme = theme === 'dark' ? 'light' : 'dark';
         root.setAttribute('data-theme', theme);
-        toggle.innerHTML = theme === 'dark'
-          ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
-          : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        setIcon();
       });
     })();
 
+    /* ---- LOAD DATA ---- */
+    async function loadData() {
+      const res = await fetch('./data.json');
+      appData = await res.json();
+      fillSelects();
+      renderMapCards();
+      renderStats();
+      renderStatus();
+    }
+
     loadData().catch(err => {
-      title.textContent = 'data.json konnte nicht geladen werden';
-      summary.textContent = 'Prüfe, ob data.json im selben Ordner wie index.html liegt und GitHub Pages korrekt veröffentlicht.';
-      badges.innerHTML = '<span class="badge">Ladefehler</span>';
-      parts.innerHTML = `<article class="part-card"><strong><span class="part-index">!</span>Fehler</strong><small>${err.message}</small></article>`;
-      tip.textContent = 'Wenn du lokal testest, nutze einen kleinen Webserver oder GitHub Pages.';
+      document.getElementById('resultTitle').textContent = 'data.json could not be loaded';
+      document.getElementById('resultSummary').textContent = 'Make sure data.json is in the same folder as index.html.';
+      emptyState.style.display = 'none';
+      resultContent.style.display = 'block';
+      document.getElementById('partsGrid').innerHTML = `<article class="part-card"><div class="part-name"><span class="part-index">!</span>Error</div><p class="part-reason">${err.message}</p></article>`;
     });
   </script>
 </body>
