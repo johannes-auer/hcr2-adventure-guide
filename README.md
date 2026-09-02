@@ -2,6 +2,8 @@
 
 Diese Struktur ist für **GitHub Pages** vorbereitet. GitHub Pages kann statische Dateien direkt aus einem Repository veröffentlichen, und als Quelle kann dabei die **Root** oder ein **`/docs`-Ordner** verwendet werden. [web:84][web:100]
 
+https://johannes-auer.github.io/hcr2-adventure-guide/
+
 ## Ordnerstruktur
 
 ```text
